@@ -1,0 +1,80 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .carousel-items .carousel-item {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-prev, .carousel-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: black;
+    z-index: 1000;
+  }
+  
+  .carousel-prev { left: 0; }
+  .carousel-next { right: 0; }
+  /* Personaliza a cor de fundo da navbar */
+.navbar {
+    background-color: #004d40; /* Um tom de verde escuro */
+  }
+  
+  /* Muda a cor do brand da navbar quando não está interagido */
+  .navbar-brand {
+    color: #faf8f9 !important; /* Branco */
+  }
+  
+  /* Muda a cor do brand da navbar durante a interação (hover e focus) */
+  .navbar-brand:hover, .navbar-brand:focus {
+    color: #dcedc8 !important; /* Um verde claro */
+  }
+  
+  /* Personaliza os links da navbar */
+  .nav-link {
+    color: #f8f9fa !important; /* Branco */
+  }
+  
+  /* Muda a cor dos links da navbar durante a interação (hover e focus) */
+  .nav-link:hover, .nav-link:focus {
+    color: #dcedc8 !important; /* Um verde claro */
+  }
+  
+  /* Personaliza a cor de fundo do menu dropdown */
+  .dropdown-menu {
+    background-color: #00796b; /* Um verde um pouco mais claro que o da navbar */
+  }
+  
+  /* Personaliza a cor dos itens do dropdown */
+  .dropdown-item {
+    color: #f8f9fa !important; /* Branco */
+  }
+  
+  /* Muda a cor dos itens do dropdown durante a interação (hover) */
+  .dropdown-item:hover, .dropdown-item:focus {
+    background-color: #004d40 !important; /* Mantém a cor consistente com a navbar */
+    color: #dcedc8 !important; /* Um verde claro */
+  }
+  
+  /* Personaliza o botão do formulário */
+  .btn-outline-success {
+    color: #f8f9fa; /* Branco */
+    border-color: #dcedc8; /* Um verde claro */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #dcedc8; /* Um verde claro */
+    color: #004d40; /* Um tom de verde escuro */
+  }
